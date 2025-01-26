@@ -1,26 +1,60 @@
-# Lumen PHP Framework
+# Proyecto Billetera Virtual - Servicios SOAP (Lumen PHP)
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://img.shields.io/packagist/l/laravel/lumen)](https://packagist.org/packages/laravel/lumen-framework)
+Bienvenido al Proyecto Billetera Virtual implementando servicios REST. Este proyecto utiliza "Lumen PHP Framework", a continuación encontrarás información importante sobre cómo clonar el repositorio, instalar las dependencias.
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+## 🚀 Clonar el Repositorio
 
-> **Note:** In the years since releasing Lumen, PHP has made a variety of wonderful performance improvements. For this reason, along with the availability of [Laravel Octane](https://laravel.com/docs/octane), we no longer recommend that you begin new projects with Lumen. Instead, we recommend always beginning new projects with [Laravel](https://laravel.com).
+Para clonar este repositorio en tu máquina local, sigue estos pasos:
 
-## Official Documentation
+1. **Clona el repositorio usando Git:**
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+    ```bash
+    git clone https://github.com/jrgeorge89/virtual-wallet-rest.git
+    ```
 
-## Contributing
+2. **Navega a la carpeta del proyecto:**
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+    ```bash
+    cd tu-repositorio
+    ```
 
-## Security Vulnerabilities
+## 🔧 Instalación y Ejecución
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+Para instalar las dependencias y ejecutar el proyecto, sigue estos pasos:
 
-## License
+1. **Instala la dependencia del proyecto:**
 
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+    Asegúrate de tener [Composer](https://getcomposer.org/) instalado.
+
+    ```bash
+    composer install
+    ```
+
+2. **Configura el archivo de entorno:**
+
+    Copia el archivo `.env.example` a `.env` y configura las variables de entorno según tu entorno local.
+
+    ```bash
+    cp .env.example .env
+    ```
+
+3. **Inicia el servidor de desarrollo:**
+
+    ```bash
+    php artisan serve
+    ```
+
+   El proyecto estará disponible en [http://127.0.0.1:8000](http://127.0.0.1:8000).
+
+   ! Una vez inicializado el proyecto, puedes probar el proyecto por medio de Postman con los diferentes Endpoint de los servicios Rest ¡.
+
+## ✨ Funcionalidades Implementadas
+
+Este proyecto incluye la siguiente funcionalidades:
+
+- Registro de clientes.
+- Recarga de billeteras.
+- Pagos y confirmación de pagos.
+- Consulta de saldos.
+
+**¡Listo! Ahora estás listo para comenzar a revisar el Proyecto. ¡Gracias!** 😊
