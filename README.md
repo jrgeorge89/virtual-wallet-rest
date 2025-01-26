@@ -1,4 +1,4 @@
-# Proyecto Billetera Virtual - Servicios SOAP (Lumen PHP)
+# Proyecto Billetera Virtual - Servicios Rest (Lumen PHP)
 
 Bienvenido al Proyecto Billetera Virtual implementando servicios REST. Este proyecto utiliza "Lumen PHP Framework", a continuación encontrarás información importante sobre cómo clonar el repositorio, instalar las dependencias.
 
